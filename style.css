@@ -1,0 +1,35 @@
+.category-think {
+  background-color: #b8d8d8;
+  color: #7a9e9f;
+}
+.featured-scroll-wrapper-outer {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+.featured-scroll-wrapper-inner {
+  overflow-x: auto;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+}
+.featured-scroll-wrapper-outer .featured-creations-wrap-outer {
+  height: 240px;
+}
+.featured-scroll-wrapper-outer .featured-creations-list {
+  overflow-y: hidden;
+  width: 880px;
+  -webkit-padding-start: 10px;
+}
+.creation-wrap {
+  float: left;
+  list-style: none;
+  margin: 0 auto;
+  width: 280px;
+  height: 200px;
+  background: white;
+  margin: 5px;
+  border-radius: 8px;
+  line-height: 200px;
+  font-size: 30px;
+  text-align: center;
+
+}
